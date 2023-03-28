@@ -27,4 +27,25 @@ h2{
   font-style: italic;
   color: #444;
   font-family: Georgia, "Times New Roman";
+  background-image: url('images/background.gif');
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 250px;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+.yuan{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border-color: black;
+  border-style: solid;
+}
+
+.woshiyuan{
+  text-align:center;
+  padding-top: 75px;
 }
