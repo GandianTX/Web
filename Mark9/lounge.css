@@ -17,19 +17,21 @@ h2{
 }
 
 .guarantee{
-  border-color: white;
+  /* border-color: white;
   border-width: 1px;
-  border-style: dashed;
-  background-color: #a7cece;
+  border-style: dashed; */
+  border: white 1px dashed;
+  /* background-color: #a7cece;
+  background-image: url('images/background.gif');
+  background-repeat: no-repeat;
+  background-position: top left; */
+  background: #a7cece url('images/background.gif') no-repeat top left;
   padding: 25px;
   margin: 30px;
   line-height: 1.9em;
   font-style: italic;
   color: #444;
   font-family: Georgia, "Times New Roman";
-  background-image: url('images/background.gif');
-  background-repeat: no-repeat;
-  background-position: top left;
   padding: 25px;
   padding-left: 80px;
   margin-right: 250px;
@@ -50,7 +52,7 @@ h2{
   padding-top: 75px;
 }
 
-.elixir{
+.elixirs{
   border-width: thin;
   border-style: solid;
   border-color: #007e7e;
@@ -65,16 +67,38 @@ h2{
   line-height: 1;
 } 
 
-.elixir h2{
+.elixirs h2{
   color:black;
 }
 
-.elixir h3{
+.elixirs h3{
   color: #d12c47;
 }
 
 .footer{
-  
+  font-size: .5em;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
 }
 
+.cd{
+  font-style: italic;
+}
 
+.artist{
+  font-weight: bold;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
