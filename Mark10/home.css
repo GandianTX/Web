@@ -1,0 +1,31 @@
+.test{
+  color: yellow;
+  }
+
+h1,h2{
+  font-weight: 600;
+}
+
+h1{
+  font-weight: 200;
+}
+
+.red-font{
+  color: red;
+}
+
+.blue-font{
+  color: blue;
+}
+
+.green-font{
+  color: green;
+}
+
+.test1{
+  color: green;
+}
+
+#test2{
+  color: brown;
+}
