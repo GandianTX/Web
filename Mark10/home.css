@@ -29,3 +29,15 @@ h1{
 #test2{
   color: brown;
 }
+
+p{
+  background-color: blue;
+}
+
+.iname{
+  background-color: green;
+}
+
+#cname{
+  background-color: yellow;
+}
