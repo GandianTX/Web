@@ -53,3 +53,16 @@ p h1{
 h1{
   background-color: brown;
 }
+
+.left {
+	margin-right: 10px;
+}
+
+.right {
+	margin-left: 20px;
+}
+
+.ruler {
+	display: inline-block;
+	width: 30px;
+}
