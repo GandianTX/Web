@@ -64,5 +64,56 @@ h1{
 
 .ruler {
 	display: inline-block;
-	width: 30px;
+	width: 28px;
+  height: 16px;
+  border: 1px black solid;
+}
+
+.rights {
+	float: right;
+}
+
+div.block {
+	width: 45vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+
+.top {
+	margin-bottom: 10px;
+}
+
+.bottom {
+	margin-top: 20px;
+}
+
+.rulers {
+	height: 20px;
+}
+
+.waicen{
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+  margin: 30px;
+}
+
+.neicen{
+  width:200px;
+  height: 100px;
+  background-color: aquamarine;
+  margin: 20px;
+}
+
+.waicens{
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+  border: 1px black solid;
+  margin: 30px;
+}
+
+.float-block{
+  float: right;
+  width: 400px;
 }
