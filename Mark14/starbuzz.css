@@ -9,6 +9,15 @@ body {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
+  min-width: max-content;
+}
+
+.header-logo{
+  background-position: 0px 0px;
+}
+
+.header-slogan{
+  background-position: -400px 0px;
 }
 
 .main {
@@ -75,4 +84,11 @@ div.tableContainer{
 
 div.tableRow{
   display: table-row;
+}
+
+.sprite-container{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('images/header.gif');
 }
