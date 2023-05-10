@@ -16,7 +16,7 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-.header {
+.top {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
@@ -35,6 +35,27 @@ a:visited {
   float: right;
 }
 
+ul{
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+
+ul li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+ul li a:link,nav ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+ul li.selected{
+  background-color: #c8b99c;
+}
+
 .award{
   position: absolute;
   top: 30px;
@@ -50,7 +71,7 @@ a:visited {
   width: 150%;
 }
 
-.main {
+.blog {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
